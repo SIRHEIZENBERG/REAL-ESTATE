@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ml-auto">
+      <div class="container-fluid">
+        <i class="fa-solid fa-house"></i>
+        <a class="navbar-brand" href="#"></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                HOME
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cowork space
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                listing
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Property details
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-success">
+            Register<button type="button" class="btn btn-light">free</button>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex">
+      <h1 class="text-left">Let's Find A house That's Perfect For You</h1>
+      <div class="image-frame">
+        <img class="heading-pic" src="hse4.avif" alt="An image" />
+      </div>
+    </div>
+    <div class="cont">
+      <div class="dropdown">
+        <button
+          id="drp3"
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Location
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">city, state</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button
+          id="drp2"
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Work space
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">personal flat</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button
+          id="drp1"
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Max price
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">15,000$</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <form>
+        <input
+          class="searchbox1"
+          type="text"
+          placeholder="Try to find out
+        now..."
+        />
+      </form>
+    </div>
+
+    <h1 class="hech1">TOP PROPERTY FOR YOU</h1>
+
+    <div class="smallnav">
+      <div class="ib"><span>Houses</span></div>
+      <div class="ib"><span>Plat</span></div>
+      <div class="ib"><span> Co-Work</span></div>
+      <div class="ib"><span>Commercial</span></div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="mnasion.avif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">OACEN GOLDEN</p>
+        <p>Pitt street kirribilli nsw 2061</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="hse6.avif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">MAPSKO-MOUNTVILE</p>
+        <p>Pitt street kirribilli nsw 2061</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="hse5.avif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">PARANJAPE TOWERS</p>
+        <p>Pitt street kirribilli nsw 2061</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="mansion.avif" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">M3M WOODSHIRE</p>
+        <p>Pitt street kirribilli nsw 2061</p>
+      </div>
+    </div>
+    <img class="tablepic" src="HAND HSE.jpg" alt="" srcset="" />
+    <div class="table">
+      <h3>Real Estate PlatForm With 10,000 + Highly Rated Sellers</h3>
+      <p>
+        We understand that peopple everywhere are searching for a home to call
+        their home.W e want to make this seacrh as joyfully as finally finding
+        the perfect home beacuse we undestand that finding a home is much more
+        than an online search.
+      </p>
+      <div class="tebo">
+        <table class="tbl">
+          <tr>
+            <td>Budget</td>
+            <td>Size</td>
+            <td>type</td>
+            <td>status</td>
+          </tr>
+          <tr>
+            <td>Confidential</td>
+            <td>500m</td>
+            <td>flat</td>
+            <td>Complete</td>
+          </tr>
+        </table>
+
+        <table class="tbl">
+          <tr>
+            <td>Bathroom</td>
+            <td>Local</td>
+            <td>New</td>
+            <td>launch date</td>
+          </tr>
+          <tr>
+            <td>2bhk</td>
+            <td>Aboha</td>
+            <td>Availabilty</td>
+            <td>oct 2021</td>
+          </tr>
+        </table>
+      </div>
+      <button type="button" class="btn btn-success">Explore more</button>
+    </div>
+
+    <div class="prdctcards">
+      <div class="properties">
+        <h2 class="hech1">Properties Near You</h2>
+      </div>
+      <div class="container">
+        <img src="ho.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho2.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho3.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho4.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho5.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho2.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho7.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="ho.jpg" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+
+      <div class="container">
+        <img src="hse6.avif" class="image" />
+        <p class="text">2 BHK 900SQ FT Aboha punjab india 2.75lak</p>
+      </div>
+    </div>
+
+    <div class="living">
+      <h2 class="hech1">Making A ffordable Living Spaces</h2>
+      <p class="text2">
+        We undestand that people everywhre are seaching for a home to calll
+        their own.We want to make this seach as joyfull as finally finding the
+        pefect home.
+      </p>
+      <img class="livingpic" src="bera.avif" alt="" srcset="" />
+      <div class="half1">
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> Living rooms are pre wired
+          for surround.
+        </p>
+
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> Luxurious Interior Designs
+          And Amenities
+        </p>
+
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> Nested In The Buckhead
+          Vinnings Community
+        </p>
+      </div>
+
+      <div class="half2">
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> Out Door Grilling With Dining
+          Court.
+        </p>
+
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> Private Balconies With
+          Stunning Views.
+        </p>
+
+        <p class="icns">
+          <i class="fa-solid fa-square-check"></i> A Rare Combination Of
+          Inspired Architechture
+        </p>
+      </div>
+
+      <button id="btn" type="button" class="btn btn-success">
+        Explore more
+      </button>
+    </div>
+
+    <div class="testimonial">
+      <h2 class="testtitle">TESTIMONIAL</h2>
+      <div class="frame"></div>
+    </div>
+
+    <div class="testament">
+      <b> <p>Sahil Gupta</p> </b>
+      <p>
+        I pay rent of 27,000 rs avery month and while it has been a good part of
+        my salary, i am exited now as i get rewarded as i can use my credit
+        card! My credit score has improved too.
+      </p>
+    </div>
+
+    <div class="loan">
+      <h1>Need A loan For Your New Home?</h1>
+      <button
+        id="apply"
+        type="button"
+        class="btn btn-danger btn btn-primary btn-lg"
+      >
+        Apply Now
+      </button>
+    </div>
+
+    <div class="filloutform">
+      <h1>Lets Start Visual Tours</h1>
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Visiting Time"
+            aria-label="Visiting Time"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Contact No"
+            aria-label="Contact No"
+          />
+        </div>
+      </div>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Comment</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary btn btn-success">
+          Submit Now
+        </button>
+      </form>
+    </div>
+
+    <div class="foot">
+      <div id="footer">
+        <div class="footitem1">
+          <li>
+            <p>Home Page</p>
+            <ul>
+              <p>Home-v1</p>
+              <p>Home-v2</p>
+              <p>Home-v3</p>
+              <p>Home-v4</p>
+              <p></p>
+            </ul>
+          </li>
+        </div>
+        <div class="footitem2">
+          <li>
+            <p>Co-Work space</p>
+            <ul>
+              <p>Private Office</p>
+              <p>Dedicated Desk</p>
+              <p>Virtual office</p>
+              <p>Custom built</p>
+              <p>Chanel partner</p>
+              <p>Meetinf space</p>
+            </ul>
+          </li>
+        </div>
+        <div class="footitem3">
+          <li>
+            <p>Listing</p>
+            <ul>
+              <p>Listing page v-1</p>
+              <p>Listing page v-2</p>
+              <p>Listing page v-3</p>
+              <p>Listing page v-4</p>
+              <p>Listing page v-5</p>
+            </ul>
+          </li>
+        </div>
+        <div class="footitem4">
+          <li>
+            <p>Property Details</p>
+            <ul>
+              <p>Property detailsv-1</p>
+              <p>Property detailsv-2</p>
+              <p>Property detailsv-3</p>
+              <p>Property detailsv-4</p>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

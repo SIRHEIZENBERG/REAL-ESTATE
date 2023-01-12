@@ -1,0 +1,304 @@
+.text-left {
+  font-size: 4.5rem;
+}
+.hech1 {
+  font-weight: bold;
+  font-size: 3srem;
+}
+.testtitle {
+  font-weight: bold;
+  font-size: 3srem;
+  position: relative;
+  right: 250px;
+  top: 100px;
+}
+h1 {
+  margin: 2%;
+}
+body {
+  margin: 2%;
+}
+.heading-pic {
+  position: relative;
+  right: 70px;
+  top: 80px;
+}
+.image-frame {
+  border: solid;
+  border-width: 5px;
+  margin: 5px;
+  color: green;
+}
+.cont {
+  position: relative;
+  height: 100px;
+  width: 800px;
+  background: rgb(255, 255, 255);
+  left: 100px;
+  bottom: 70px;
+}
+#drp1 {
+  text-decoration: black;
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 60px;
+}
+#drp2 {
+  text-decoration: black;
+  color: white;
+  position: relative;
+  left: 400px;
+  bottom: 23px;
+}
+#drp3 {
+  text-decoration: black;
+  color: white;
+  position: relative;
+  top: 15px;
+}
+.searchbox1 {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(235, 104, 126);
+  position: relative;
+  left: 550px;
+  bottom: 100px;
+  font-weight: bold;
+}
+.smallnav {
+  position: relative;
+  height: 50px;
+  width: 500px;
+  background-color: white;
+  left: 600px;
+  bottom: 50px;
+  font-weight: bold;
+}
+.ib {
+  position: relative;
+  display: inline-block;
+  padding: 4%;
+}
+
+span {
+  position: relative;
+}
+span:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: green;
+}
+span:hover {
+  color: green;
+  cursor: pointer;
+}
+.pink {
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+.smallnav {
+  background-image: url("https://htmlcolorcodes.com/assets/images/colors/pastel-pink-color-solid-background-1920x1080.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 600px;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  bottom: 400px;
+  padding: 2%;
+}
+.table {
+  position: relative;
+  height: 300px;
+  width: 800px;
+  left: 50px;
+  bottom: 400px;
+  display: block;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAA1BMVEV7snR+RcN0AAAAJklEQVRoge3BAQ0AAADCoPdP7ewBFAAAAAAAAAAAAAAAAAAAANwAPoIAAWfHip0AAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 900px;
+  left: 400px;
+}
+.tablepic {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  left: 200px;
+  bottom: 80px;
+}
+.tbl {
+  padding: 2%;
+  position: relative;
+  display: inline-block;
+}
+.bacg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CMoI26X4A1N1wM6-tb_I-pWg6z8YATTnlQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 900px;
+  left: 400px;
+}
+.container {
+  width: 350px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  padding: 2%;
+  border: 1px solid green;
+  margin: 2%;
+}
+
+.image {
+  float: left;
+  width: 50%;
+  object-fit: cover;
+}
+
+.text {
+  margin-left: 50%;
+  font-weight: bold;
+  padding: 2%;
+}
+.text2 {
+  margin-right: 50%;
+}
+
+.prdctcards {
+  position: relative;
+  display: flexbox;
+  bottom: 300px;
+}
+.icns {
+  position: relative;
+}
+.living {
+  position: relative;
+}
+.livingpic {
+  position: relative;
+  left: 760px;
+  bottom: 100px;
+  float: left;
+}
+
+.half1 {
+  position: relative;
+  right: 500px;
+  font-weight: bold;
+}
+.half2 {
+  font-weight: bold;
+  position: relative;
+  bottom: 120px;
+  right: 120px;
+}
+#btn {
+  position: relative;
+  right: 500px;
+}
+.testimonial {
+  position: relative;
+  top: 300px;
+  left: 500px;
+  height: 500px;
+  width: 800px;
+  background: rgb(101, 217, 235);
+}
+.testament {
+  position: relative;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  left: 700px;
+  top: 30px;
+  margin-right: 60%;
+}
+.frame {
+  border: 1px solid green;
+  padding: 10px;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 160px;
+  top: 130px;
+}
+.loan {
+  height: 100px;
+  width: 900px;
+  position: relative;
+  background: rgb(212, 114, 149);
+  top: 300px;
+  display: flex;
+  align-items: center;
+  left: 200px;
+  bottom: 150px;
+}
+
+#apply {
+  position: relative;
+  left: 100px;
+  bottom: 0px;
+}
+.filloutform {
+  position: relative;
+  width: 900px;
+  height: 400px;
+  background: rgb(255, 255, 255);
+  top: 400px;
+  left: 200px;
+}
+.row {
+  margin: 2%;
+}
+
+.foot {
+  position: relative;
+  width: 1400px;
+  height: 600px;
+  background: #000;
+  top: 600px;
+  display: inline-block;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  overflow-y: hidden;
+}
+.footitem1 {
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+.footitem2 {
+  position: relative;
+  left: 300px;
+  bottom: 180px;
+}
+.footitem3 {
+  position: relative;
+  left: 600px;
+  bottom: 480px;
+}
+.footitem4 {
+  position: relative;
+  left: 900px;
+  bottom: 750px;
+}
